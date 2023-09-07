@@ -1,5 +1,19 @@
 
 ### Tutorials 
+
+# После установки docker-compose - нужно запустить сборку командой docker-compose build
+# Потом запускаем docker-compose up
+
+# после этого можно смотреть все записи через endpoint :  GET http://localhost:8080/api/v1/techdocs/
+# можно вручную загружать новые записи поштучно через  endpoint :  POST http://localhost:8080/api/v1/techdocs/create
+# первоначальная загрузка записей с сервева Beckman через  endpoint :POST  http://localhost:8080/api/v1/techdocs/load
+# проверка наличия обновлений сервева Beckman - GET  http://localhost:8080/api/v1/techdocs/refresh (при наличии обновлений - они переносятсяв нашу базу, создавая у нас новые записи)
+
+
+
+
+
+### Tutorials 
 Lets install **docker**  by going through following steps:
 
 Update the existing packages

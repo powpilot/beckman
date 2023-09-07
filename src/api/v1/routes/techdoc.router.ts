@@ -12,7 +12,7 @@ export default (app: Router) => {
     return res.send(response);
   });
 
-  router.get("/create", async (req: Request, res: Response) => {
+  router.post("/create", async (req: Request, res: Response) => {
     const service = new TechDocService();
     const response = await service.createTechDoc(req.body);
     return res.send(response);
