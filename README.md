@@ -1,8 +1,8 @@
 
-### Tutorials 
+### Запуск загрузчика 
 
-- После установки docker-compose - нужно запустить сборку командой docker-compose build
-- Потом запускаем docker-compose up
+- после установки docker-compose - нужно запустить сборку командой docker-compose build
+- потом запускаем docker-compose up
 
 - после этого можно смотреть все записи через endpoint :  GET http://localhost:8080/api/v1/techdocs/
 - можно вручную загружать новые записи поштучно через  endpoint :  POST http://localhost:8080/api/v1/techdocs/create
